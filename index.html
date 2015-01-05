@@ -4,6 +4,37 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
+        body {
+            background-color: #000000;
+        }
+
+        ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            background: #222222;
+            padding: 10px;
+            display: block;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li,
+        ul li a:hover {
+            color: #a4c400;
+            background: #333333;
+        }
+
+        .menu-container {
+            width: 600px;
+            margin: auto;
+            border: 4px dashed #222222;
+            border-radius: 12px;
+        }
+
         .center {
             text-align: center;
         }
@@ -20,10 +51,14 @@
 <p class="center">Hello world!</p>
 
 <p>
-<ul>
-    <li><a href="http://andreidodu.github.io/a-space-odyssey/">A Space Odyssey - HTML5 canvas game prototype</a></li>
-    <li><a href="http://www.andrei.dodu.it">Blog</a></li>
-</ul>
+
+<div class="menu-container">
+    <ul>
+        <li><a href="http://andreidodu.github.io/a-space-odyssey/">A Space Odyssey - HTML5 canvas game prototype</a>
+        </li>
+        <li><a href="http://www.andrei.dodu.it">Blog</a></li>
+    </ul>
+</div>
 </p>
 </body>
 </html>
